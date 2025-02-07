@@ -1,0 +1,10 @@
+{
+  "games": [
+    {
+      "id": "fnaf-1",
+      "title": "FNAF 1",
+      "path": "/fnaf-1/",
+      "image": "../img/games/fnaf-1.png"
+    }
+  ]
+}
