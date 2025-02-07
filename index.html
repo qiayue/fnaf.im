@@ -77,8 +77,9 @@
                 </div>
 
             </div>
-        
 
+            <!-- Replace the existing explore section with this -->
+            <div id="exploreGamesContainer"></div>
 
         <article>
             <section class="introduction">
@@ -131,7 +132,7 @@
                     
                 <div>
                     <h3>Monitor the Security Cameras</h3>
-                    <p>Use the security cameras to track the animatronics’ movements. Keep an eye on their locations and anticipate their attacks. Switching between cameras is crucial to staying one step ahead in FNAF.</p>
+                    <p>Use the security cameras to track the animatronics' movements. Keep an eye on their locations and anticipate their attacks. Switching between cameras is crucial to staying one step ahead in FNAF.</p>
                 </div>
                 <div>
                     <h3>Use Doors and Lights</h3>
@@ -139,7 +140,7 @@
                 </div>
                 <div>
                     <h3>Listen for Sounds</h3>
-                    <p>Pay attention to FNAF audio cues. Listen closely for footsteps, breathing, or other noises that signal an animatronic’s approach. These audio cues can help you act quickly to avoid danger.</p>
+                    <p>Pay attention to FNAF audio cues. Listen closely for footsteps, breathing, or other noises that signal an animatronic's approach. These audio cues can help you act quickly to avoid danger.</p>
                 </div>
                 <div>
                     <h3>Survive Until Dawn</h3>
@@ -186,7 +187,7 @@
                 </div>
                 <div>
                     <h3>Can I play FNAF online?</h3>
-                    <p>Yes, FNAF can be played online through various platforms offering unblocked versions. It’s a great way to experience the game without downloads.</p>
+                    <p>Yes, FNAF can be played online through various platforms offering unblocked versions. It's a great way to experience the game without downloads.</p>
                 </div>
                 <div>
                     <h3>Can I play FNAF for free?</h3>
@@ -218,7 +219,7 @@
                 </div>
                 <div>
                     <h3>Who created FNAF?</h3>
-                    <p>FNAF was created by Scott Cawthon, who developed the game’s unique blend of horror, strategy, and storytelling.</p>
+                    <p>FNAF was created by Scott Cawthon, who developed the game's unique blend of horror, strategy, and storytelling.</p>
                 </div>
                 <div>
                     <h3>What is the story behind FNAF?</h3>
@@ -267,6 +268,17 @@
 
 
     <script src="../js/main.js"></script>
+    <script src="../js/explore-games.js"></script>
+    <script>
+        // Load explore games section
+        fetch('../components/explore-games.html')
+            .then(response => response.text())
+            .then(html => {
+                document.getElementById('exploreGamesContainer').innerHTML = html;
+                // Games will be loaded by explore-games.js
+            })
+            .catch(error => console.error('Error loading explore games section:', error));
+    </script>
 </body>
 
 </html>
