@@ -5,6 +5,24 @@
       "title": "FNAF 1",
       "path": "/fnaf-1/",
       "image": "../img/games/fnaf-1.png"
+    },
+    {
+      "id": "fnaf-2",
+      "title": "FNAF 2",
+      "path": "/fnaf-2/",
+      "image": "../img/games/fnaf-2.png"
+    },
+    {
+      "id": "fnaf-3",
+      "title": "FNAF 3",
+      "path": "/fnaf-3/",
+      "image": "../img/games/fnaf-3.png"
+    },
+    {
+      "id": "fnaf-4",
+      "title": "FNAF 4",
+      "path": "/fnaf-4/",
+      "image": "../img/games/fnaf-4.png"
     }
   ]
 }
