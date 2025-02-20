@@ -23,6 +23,18 @@
       "title": "FNAF 4",
       "path": "/fnaf-4/",
       "image": "../img/games/fnaf-4.png"
+    },
+    {
+      "id": "fnaf-5",
+      "title": "FNAF 5: Sister Location",
+      "path": "/fnaf-5/",
+      "image": "../img/games/fnaf-5.png"
+    },
+    {
+      "id": "fnaf-6",
+      "title": "FNAF 6: Freddy Fazbear's Pizzeria Simulator",
+      "path": "/fnaf-6/",
+      "image": "../img/games/fnaf-6.png"
     }
   ]
 }
